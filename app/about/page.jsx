@@ -1,5 +1,5 @@
-import Photo from "@/components/Photo"
 import Link from "next/link"
+import Image from "next/image"
 
 const About = () => {
   return (
@@ -12,7 +12,15 @@ const About = () => {
             <p className="max-w-[550px] mb-9 text-gray-300 text-3xl">
             I'm Kyle, a motivated and passionate high school student @ <Link href="https://qhss.org/" className="text-accent">QHSS</Link> seeking to leverage a strong academic background and enthusiasm for computer science, artificial intelligence, and data science to contribute to real-world applications and gain valuable experience in the field.
             </p>
-            <Photo />
+            <div className="relative w-[500px] h-[500px] xl:w-[500px] xl:h-[500px]">
+            <Image 
+            src="/assets/kyleZhang.png" 
+             
+            quality={100}
+            fill
+            alt="" className="object-contain"
+            />
+        </div>
         </div>
         
       </div>

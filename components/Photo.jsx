@@ -11,7 +11,7 @@ const Photo = () => {
         <div className="w-[500px] h-[500px] xl:w-[500px] xl:h-[500px] mix-blend-lighten">
             <Image 
             src="/assets/photo.png" 
-            priority 
+            priority  
             quality={100}
             fill
             alt="" className="object-contain"
