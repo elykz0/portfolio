@@ -14,7 +14,7 @@ const About = () => {
             </p>
             <div className="relative w-[500px] h-[500px] xl:w-[500px] xl:h-[500px]">
             <Image 
-            src="/assets/kyleZhang.png" 
+            src="/assets/KyleZhang.png" 
              
             quality={100}
             fill
